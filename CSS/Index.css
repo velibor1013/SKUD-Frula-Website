@@ -1,0 +1,144 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff; 
+    --gray: rgba(201, 199, 199, 0.4);
+    --orange: #ff5241;
+  }
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.intro {
+    display: flex;
+    grid-column: 1 / 4;
+    margin:20px;
+}
+.activities {
+    margin: 5px;
+    height: 472px;
+}
+.introBlock {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 94px;
+    background-color: aqua;
+    bottom: 32px;
+}
+.introBlock h2{
+    text-align: center;
+}
+.about {
+    grid-column: 4/6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutUsBtn {
+    position: relative;
+    display: flex;
+    margin: 30px;
+    margin-left: 0px;
+    height: 20%;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--gray);
+}
+.aboutUsText {
+    display: flex;
+    color: var(--white);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    margin: 30px;
+    height: 65%;
+    width: 90%;
+}
+.AboutUsTitle {
+    font-size: 36px;
+    margin: 2px;
+}
+.AboutUsSubtitle {
+    font-size: 24px;
+    margin: 2px;
+}
+.AboutUsParagraph {
+    font-size: 13px;
+    margin: 2px;
+    margin-right: 20px;
+}
+.missions {
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 30px;
+}
+.missionCard {
+    display: grid;
+    grid-template-rows: 30% 50% 20%;
+}
+.missionCardTitle {
+    grid-row: 1/2;
+    height: 90px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.joinUsTitle {
+    background-image: url("../Sources/Hungarian floral pattern.svg");
+    object-fit: cover;
+    background-position-x: 50px;
+    background-position-y: 220px;
+}
+.ourMissionTitle {
+    background-image: url("../Sources/flower petals pattern.svg");
+    background-size: 150%;
+    object-fit: cover;
+}
+.currentProjectsTitle {
+    background-image: url("../Sources/knit decor pattern.svg");
+    background-size: 50%;
+    background-position-y: -335px;
+    background-repeat: repeat-x;
+}
+.icon {
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.missionBlurb p {
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+
+}
+.missionBlurb {
+    grid-row: 2/3;
+}
+.missionsReadMore {
+    grid-row: 3;
+    text-decoration: none;
+    color: black;
+    top: 200px;
+    background-color: var(--orange);
+    position: bottom left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.title {
+    color: var(--white);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
