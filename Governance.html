@@ -17,8 +17,8 @@
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon_package_v0.16/favicon-16x16.png">
         <link rel="manifest" href="../favicon_package_v0.16/site.webmanifest">
         <link rel="mask-icon" href="../favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="stylesheet" href="../CSS/Index.css" />
-        <link rel="stylesheet" href="../CSS/Main.css" />
+        <link rel="stylesheet" href="../styles/Governance.css" />
+        <link rel="stylesheet" href="../styles/Main.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Offside&display=swap" rel="stylesheet">
@@ -27,22 +27,22 @@
         <div id="myNav" class="mobileMenu">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="mobileMenu-content">
-              <a href="../Index.html" onclick="closeNav()" class="links" id="currentPage">Home</a>
+              <a href="../Index.html" onclick="closeNav()" class="links">Home</a>
               <a href="../EventsAndPerformances.html" onclick="closeNav()" class="links">Events and Performances</a>
               <a href="../SKUD-Frula-Website/GetInvolved.html" onclick="closeNav()" class="links">Get Involved</a>
-              <a href="../SKUD-Frula-Website/Governance.html" onclick="closeNav()" class="links">Governance</a>
+              <a href="../SKUD-Frula-Website/Governance.html" onclick="closeNav()" class="links" id="currentPage">Governance</a>
               <a href="../SKUD-Frula-Website/ContactUs.html" onclick="closeNav()" class="links">Contact US</a>
             </div>
         </div>
         <header>
             <div id="menus">
-                <div class="logo"><img src="../Sources/SKUD Frula Coloured Logo (2372 x 1536).JPG"></div>
+                <div class="logo"><img src="../images/SKUD_Frula_Coloured_Logo_(2372x1536).JPG"></div>
                 <div class="normalMenu">
                     <ul class="pageLinks">
-                        <li id="currentPage"><a href="../Index.html"  class="links">Home</a></li>
+                        <li><a href="../Index.html"  class="links">Home</a></li>
                         <li><a href="../EventsAndPerformances.html" class="links">Events and Performances</a></li>
                         <li><a href="../GetInvolved.html" class="links">Get Involved</a></li>
-                        <li><a href="../Governance.html" class="links">Governance</a></li>
+                        <li id="currentPage"><a href="../Governance.html" class="links">Governance</a></li>
                         <li><a href="../ContactUs.html" class="links">Contact Us</a></li>
                     </ul>
                 </div>
@@ -50,32 +50,75 @@
             </div>
         </header>
         <main>
-            <section class="intro">
-                <div class="activities" id="sing">
-                    <img src="../Sources/Gallery/sing.jfif">
-                    <div class="introBlock">
-                        <h2>SING</h2>
-                    </div>
+            <section class="policies">
+                <div class="policyBlock operationalPolicies">
+                    <h2>Operational Policies</h2>
+                    <p>Please click on the button below to view our organization's Operational Policies:</p>
+                    <a class="policiesBTN operationalPoliciesPDF_BTN" href="../documents/SKUD Frula – The Society Operational Policies.pdf" target="blank"><div class="policyPDFBTN operationalPoliciesPDF_DIV"><h3 class="BTNText">OPERATIONAL POLICIES - PDF</h3></div></a>
                 </div>
-                <div class="activities" id="act">
-                    <img src="../Sources/Gallery/act.jfif">
-                    <div class="introBlock">
-                        <h2>ACT</h2>
-                    </div>
-                </div>
-                <div class="activities" id="dance">
-                    <img src="../Sources/Gallery/dance.jfif">
-                    <div class="introBlock">
-                        <h2>DANCE</h2>
-                    </div>
+                <div class="policyBlock bylaws">
+                    <h2>Bylaws</h2>
+                    <p>Please click on the button below to view our organization's Bylaws:</p>
+                    <a class="policiesBTN bylawsPDF_BTN" href="../documents/SERBIAN CULTURAL SOCIETY FRULA – BYLAWS.pdf" target="blank"><div class="policyPDFBTN bylawsPDF_DIV"><h3 class="BTNText">BYLAWS - PDF</h3></div></a>
+                    <a class="policiesBTN ProofOfFillingBylawsPDF_BTN" href="../documents/SKUD Frula - Proof Of Filling Bylaws.pdf" target="blank"><div class="policyPDFBTN proofOfFillingBylawsPDF_DIV"><h3 class="BTNText">PROOF OF FILLING - PDF</h3></div></a>
                 </div>
             </section>
-            <section class="about">
-                
+            <section class="frulaHistory">
+                <h2>FRULA'S HISTORY</h2>
+                <ul>
+                    <li>2009 - A small group comes together to learn and practice traditional Serbian folklor dances in Calgary, Alberta, Canada.</li>
+                    <li>2010 - Serbian Cultural Society Frula was incorporated and registered as an official Non-Profit Organization with the Alberta government.</li>
+                    <li>2010 - Frula performs at their first out-of-province festival in Vancouver, British Columbia, Canada.</li>
+                    <li>2012 - Frula brings in their first out-of-province instructor/choreographer to learn and practice various dances such as Eleno, Vlaske, and Sopske Igre.</li>
+                    <li>2013 - Frula travels to Milwaukee and Chicago, USA for their first set of international performances.</li>
+                    <li>2015 - Frula acquires nosnje (traditional Serbian costumes) from over 10 different regions in and around Serbia.</li>
+                    <li>2016 - Frula brings over their first instructor/choreographer from Serbia to teach Igre Iz Okoline Dimitrovgrada to our competitive group Dunav.</li>
+                    <li>2018 - Frula finally fulfills it's dream of sending their dancers to learn and perform in Serbia.</li>
+                    <li>2019 - Frula signs a record 150+ members to its various singing and dancing groups.</li>
+                </ul>
+            </section>
+            <section class="boardMembersList">
+                <h2 class="boardMembersListTitle">OUR BOARD MEMBERS</h2>
+                <div class="boardMember President">
+                    <img src="../images/UO Photos/Doris Vucijak.jfif" width="150px">
+                    <h4>President</h4>
+                    <h5>Doris Vucijak</h5>
+                </div>
+                <div class="boardMember VicePresident">
+                    <img src="../images/UO Photos/Slavica Denda.jfif" width="150px">
+                    <h4>Vice-President</h4>
+                    <h5>Slavica Denda</h5>
+                </div>
+                <div class="boardMember Treasurer">
+                    <img src="../images/UO Photos/Sanja Bajic.jfif" width="150px">
+                    <h4>Treasurer</h4>
+                    <h5>Sanja Bajic</h5>
+                </div>
+                <div class="boardMember Secretary">
+                    <img src="../images/UO Photos/Nina Pavlovic.jfif" width="150px">
+                    <h4>Secretary</h4>
+                    <h5>Nina Pavlovic</h5>
+                </div>
+                <div class="boardMember MemberAtLarge1">
+                    <img src="../images/UO Photos/Zoran Ivosevic.jfif" width="150px">
+                    <h4>Member At Large</h4>
+                    <h5>Zoran Ivosevic</h5>
+                </div>
+                <div class="boardMember MemberAtLarge2">
+                    <img src="../images/UO Photos/Martina Lasica.jfif" width="150px">
+                    <h4>Member At Large</h4>
+                    <h5>Martina Lasica</h5>
+                </div>
+                <div class="boardMember MemberAtLarge3">
+                    <img src="../images/UO Photos/Velibor Tunic.jfif" width="150px">
+                    <h4>Member At Large</h4>
+                    <h5>Velibor Tunic</h5>
+                </div>
             </section>
         </main>
         <footer>
-
+            <h2>Serbian CulturalSociety Frula</h2>
+            <h6>Est. 2009</h6>
         </footer>
         <script>
             function openNav() { document.getElementById("myNav").style.height = "100%"; }

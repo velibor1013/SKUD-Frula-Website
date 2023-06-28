@@ -1,0 +1,83 @@
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.policies {
+    grid-row: 1;
+    display: flex;
+}
+.policyBlock {
+    margin: 20px;
+    background-color: #04498e;
+    padding: 15px;
+    color: white;
+    padding-top: 0;
+    width: 50%;
+}
+.policyPDFBTN {
+    background-color: #ff5241;
+    text-decoration: none;
+}
+.BTNText {
+    font-size: 20px;
+    padding: 5px;
+}
+.policiesBTN {
+    text-decoration: none;
+}
+.policyPDFBTN {
+    text-decoration: none;
+    color: white;
+}
+.frulaHistory {
+    grid-row: 2;
+}
+.frulaHistory h2 {
+    padding-left: 15px;
+}
+.frulaHistory ul {
+    font-size: 20px;
+}
+.frulaHistory ul li {
+    margin-top: 5px;
+}
+.boardMembersList {
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    width: 100%;
+}
+.boardMembersListTitle {
+    padding-left: 15px;
+    grid-row: 1;
+    grid-column: 1/8;
+}
+.boardMember {
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boardMember img {
+    overflow: hidden;
+}
+.boardMember h4 {
+    font-size: 20px;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    color: #ff5241;
+    margin-block-end: 0;
+}
+.boardMember h5 {
+    font-size: 15px;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+}

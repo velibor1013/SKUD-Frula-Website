@@ -1,0 +1,16 @@
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.findUs {
+    grid-row: 1;
+    grid-column: 1;
+}
+.getInTouch{
+    grid-row: 1;
+    grid-column: 2/4;
+}

@@ -1,0 +1,203 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff; 
+    --gray: rgba(201, 199, 199, 0.4);
+    --orange: #ff5241;
+}
+@media (max-width: 1100px) {/* for mobile*/
+    main {
+        
+        width: 100%;
+    }
+    .intro {
+        grid-column: 1 / 4;
+    }
+    .singImg {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        object-fit: cover;  
+        max-width: 100%;
+    }
+    .logo {
+        margin-top: 15px;
+    }
+    .actImg {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        object-fit: cover;  
+        max-width: 100%;
+    }
+    .activities {
+        margin: 5px;
+        height: 472px;
+        align-items: center;
+    }
+    .introBlock {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 94px;
+        background-color: aqua;
+        bottom: 32px;
+    }
+    .introBlock h2{
+        text-align: center;
+    }
+}
+@media (min-width:1100px) {/* for desktop*/
+    main {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto ;
+    }
+    .intro {
+        justify-self: left;
+        display: flex;
+        grid-column: 1 / 4;
+        margin:20px;
+    }
+    .activities {
+        margin: 5px;
+        height: 472px;
+    }
+    .introBlock {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 94px;
+        background-color: aqua;
+        bottom: 32px;
+    }
+    .introBlock h2{
+        text-align: center;
+    }
+    .about {
+        grid-column: 4/6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .aboutUsBtn {
+        position: relative;
+        display: flex;
+        margin: 30px;
+        margin-left: 0px;
+        height: 20%;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background-color: var(--gray);
+    }
+    .aboutUsText {
+        display: flex;
+        color: var(--white);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--orange);
+        margin: 30px;
+        height: 65%;
+        width: 90%;
+    }
+    .AboutUsTitle {
+        font-size: 48px;
+        margin: 2px;
+    }
+    .AboutUsSubtitle {
+        font-size: 32px;
+        margin: 2px;
+    }
+    .AboutUsParagraph {
+        font-size: 16px;
+        margin: 2px;
+        margin-right: 20px;
+    }
+    .missions {
+        grid-column: 1/6;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        margin: 30px;
+    }
+    .missionCard {
+        display: grid;
+        grid-template-rows: 30% 50% 20%;
+        background-color: #EEEDEC;
+    }
+    .missionCardTitle {
+        grid-row: 1/2;
+        height: 90px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .joinUsTitle {
+        background-image: url("../images/Hungarian_floral_pattern.svg");
+        object-fit: cover;
+        background-position-x: 50px;
+        background-position-y: 220px;
+    }
+    .ourMissionTitle {
+        background-image: url("../images/flower_petals_pattern.svg");
+        background-size: 150%;
+        object-fit: cover;
+    }
+    .currentProjectsTitle {
+        background-image: url("../images/knit_decor_pattern.svg");
+        background-position: absolute;
+        background-size: 50%;
+        background-position-y: -325px;
+        background-repeat: repeat-x;
+    }
+    .icon {
+        margin: 10px;
+        color: rgb(0, 0, 0);
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+    }
+    .missionBlurb p {
+        font-size: 18px;
+        text-align: center;
+        justify-content: center;
+    }
+    .missionBlurb {
+        grid-row: 2/3;
+    }
+    .missionsReadMore {
+        display: flex;
+        grid-row: 3;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        background-color: var(--orange);
+        text-align: center;
+        margin: 0% 10% 5% 10%;
+    }
+    .title {
+        color: var(--white);
+        -webkit-text-stroke-width: 1.5px;
+        -webkit-text-stroke-color: black;
+    }
+    .ourPracticeSpace {
+        grid-column: 1/3;
+        font-size: 18px;
+        justify-self: center;
+        margin: 5% 5% 5% 5%;
+    }
+    .evergreenLink {
+        text-decoration: underline;
+        color: black;
+    }
+    .socialMedia {
+        grid-column: 3/6;
+        margin: 5% 5% 5% 5%;
+        font-size: 18px;
+    }
+}
