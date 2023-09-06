@@ -1,0 +1,60 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+p {
+    font-size: 20px;
+}
+.AboutUsBlocks {
+    grid-column: 1/3;
+    grid-row: 1;
+    width: 150%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.AboutUsBlocks div h2 {
+    text-align: center;
+    margin-top: 0;
+}
+.AboutUsBlocks div {
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+.getInvolvAboutUsBlocksedBlocks div p {
+    font-size: 15px;
+}
+.performingArts {
+    background-color: #FF5241;
+}
+.volunteering {
+    background-color: #04498e;
+}
+.education {
+    background-color: #A8DBC6;
+}
+.AboutUsMain {
+    grid-column: 1/4;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 20px;
+}
+.aboutUsImages {
+    grid-column: 1;
+}
+.aboutUsImages img {
+    padding: 2px;
+}
+.aboutUSText {
+    grid-column: 2;
+    margin-right: 30px;
+}
+.aboutUSText p {
+    font-size: 22px;
+}

@@ -17,18 +17,21 @@
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon_package_v0.16/favicon-16x16.png">
         <link rel="manifest" href="../favicon_package_v0.16/site.webmanifest">
         <link rel="mask-icon" href="../favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="stylesheet" href="../CSS/Index.css" />
-        <link rel="stylesheet" href="../CSS/Main.css" />
+        <link rel="stylesheet" href="../styles/Main.css" />
+        <link rel="stylesheet" href="../styles/AboutUs.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Offside&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0" nonce="8lAU0jKY"></script>
+        
         <div id="myNav" class="mobileMenu">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="mobileMenu-content">
-              <a href="../Index.html" onclick="closeNav()" class="links" id="currentPage">Home</a>
-              <a href="../EventsAndPerformances.html" onclick="closeNav()" class="links">Events and Performances</a>
+              <a href="../Index.html" onclick="closeNav()" class="links">Home</a>
+              <a href="../EventsAndPerformances.html" onclick="closeNav()" class="links">Events & Performances</a>
               <a href="../SKUD-Frula-Website/GetInvolved.html" onclick="closeNav()" class="links">Get Involved</a>
               <a href="../SKUD-Frula-Website/Governance.html" onclick="closeNav()" class="links">Governance</a>
               <a href="../SKUD-Frula-Website/ContactUs.html" onclick="closeNav()" class="links">Contact US</a>
@@ -36,11 +39,11 @@
         </div>
         <header>
             <div id="menus">
-                <div class="logo"><img src="../Sources/SKUD Frula Coloured Logo (2372 x 1536).JPG"></div>
+                <div class="logo"><img src="../images/SKUD_Frula_Coloured_Logo_(2372x1536).JPG"></div>
                 <div class="normalMenu">
                     <ul class="pageLinks">
-                        <li id="currentPage"><a href="../Index.html"  class="links">Home</a></li>
-                        <li><a href="../EventsAndPerformances.html" class="links">Events and Performances</a></li>
+                        <li><a href="../Index.html"  class="links">Home</a></li>
+                        <li><a href="../EventsAndPerformances.html" class="links">Events & Performances</a></li>
                         <li><a href="../GetInvolved.html" class="links">Get Involved</a></li>
                         <li><a href="../Governance.html" class="links">Governance</a></li>
                         <li><a href="../ContactUs.html" class="links">Contact Us</a></li>
@@ -50,36 +53,49 @@
             </div>
         </header>
         <main>
-            <section class="intro">
-                <div class="activities" id="sing">
-                    <img src="../Sources/Gallery/sing.jfif">
-                    <div class="introBlock">
-                        <h2>SING</h2>
-                    </div>
+            <section class="AboutUsBlocks">
+                <div class="performingArts">
+                    <h2>PERFORMING ARTS</h2>
+                    <p>Bringing stories of Serbian heritage to life through the use of song and dance.</p>
                 </div>
-                <div class="activities" id="act">
-                    <img src="../Sources/Gallery/act.jfif">
-                    <div class="introBlock">
-                        <h2>ACT</h2>
-                    </div>
+                <div class="volunteering">
+                    <h2>VOLUNTEERING</h2>
+                    <p>Working unanimously to improve and grow our organization while giving back to the community.</p>
                 </div>
-                <div class="activities" id="dance">
-                    <img src="../Sources/Gallery/dance.jfif">
-                    <div class="introBlock">
-                        <h2>DANCE</h2>
-                    </div>
+                <div class="education">
+                    <h2>EDUCATION</h2>
+                    <p>Remembering where we came from and how we got here, and sharing this cultural knowledge with the world.</p>
                 </div>
             </section>
-            <section class="about">
-                
+            <section class="AboutUsMain">
+                <div class="aboutUsImages">
+                    <img src="../images/Gallery/kidsDancing.jfif">
+                    <img src="../images/Gallery/SerbFestVolunteers.jfif">
+                    <img src="../images/Gallery/nosnja.jfif">
+                    
+                </div>
+                <div class="aboutUSText">
+                    <p>Serbian Cultural Society Frula (SKUD Frula) is a non-profit organization, centered around the portrayal of the Serbian culture through song and dance. We are a group that takes pride in learning, practicing, and performing many traditional Serbian folklor dances - something we have been doing since our inception in 2009.</p>
+                    <br>
+                    <p>Our enthusiastic and dedicated members are split into various dance and vocal groups based on age and skillset. We have groups that cater to the young and the young at heart, all lead by talented instructors who love pushing their students to achieve their full potential. If you are looking for a new challenge and wish to make some life-long friends along the way, please see the GET INVOLVED tab above for details on our programs and careers!</p>
+                    <br>
+                    <p>Community is very important to us, which is why Frula works very hard to involve all of our members in the growth of our organization. We volunteer and participate at many local events to give back to those who support us, but we also organize and put together fundraising events for those who need our support. We have been able to raise money for and provide aid to many in need, both here in Canada and in Serbia. Only through teamwork and collaboration can we truly be there for one another!</p>
+                    <br>
+                    <p>The continuous education of Serbian traditions and customs is also very important, as it allows our members to learn and pass down a little bit of their ancestral history to their friends or loved ones. Frula hosts seminars and presentations each year to teach those interested about various aspects of Serbian culture. We believe that knowing where we come from and the history behind every dance or song is valuable to every member of Frula - as it brings us closer to our roots.</p>
+                    <br>
+                    <p>If you would like to learn more about our organization or get in touch with our executives, please see the CONTACT US tab above and send us a message! We welcome any inquiries!</p>
+                </div>
             </section>
         </main>
         <footer>
-
+            <h2>Serbian Cultural Society Frula</h2>
+            <h6>Est. 2009</h6>
         </footer>
         <script>
             function openNav() { document.getElementById("myNav").style.height = "100%"; }
             function closeNav() { document.getElementById("myNav").style.height = "0%"; }
         </script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>

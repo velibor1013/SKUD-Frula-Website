@@ -6,6 +6,9 @@ main {
     align-items: center;
     width: 80%;
 }
+p {
+    font-size: 20px;
+}
 .getInvolvedBlocks {
     grid-column: 1/3;
     grid-row: 1;
@@ -38,12 +41,99 @@ main {
 .membershipAndPolicies {
     grid-column: 1/3;
     grid-row: 2;
-    padding: 20px;
+    margin: 20px;
     width: 150%;
+    display: grid;
+    grid-template-columns: 65% 30%;
 }
 .membershipText {
-    
+    grid-column: 1;
 }
 .membershipText p {
     font-size: 15px;
+}
+.membershipPDF {
+    grid-column: 2;
+}
+.BTNText {
+    font-size: 20px;
+    padding: 5px;
+}
+.Membership_BTN {
+    text-decoration: none;
+    
+}
+.MembershipPoliciesAndProceduresBookletPDF_DIV {
+    grid-row: 1;
+    background-color: #ff5241;
+    text-decoration: none;
+    color: white;
+}
+.MembershipPoliciesAndProceduresBookletSrpskiPDF_BTN {
+    grid-row: 2;
+    background-color: #ff5241;
+    text-decoration: none;
+    color: white;
+}
+.careerSection {
+    grid-column: 1/3;
+    grid-row: 3;
+    margin: 20px;
+    width: 150%;
+    display: grid;
+    grid-template-columns: 65% 30%;
+}
+.careersPDF {
+    grid-column: 2;
+}
+.BTNText {
+    font-size: 20px;
+    padding: 5px;
+}
+.Careers_BTN {
+    text-decoration: none;
+}
+.DanceInstructorJobPosting_DIV {
+    grid-row: 1;
+    background-color: #ff5241;
+    text-decoration: none;
+    color: white;
+}
+.ArtisticCoordinatorJobPosting_DIV {
+    grid-row: 2;
+    background-color: #ff5241;
+    text-decoration: none;
+    color: white;
+}
+.JuniorDanceInstructorJobPosting_DIV {
+    grid-row: 3;
+    background-color: #ff5241;
+    text-decoration: none;
+    color: white;
+}
+.CostumeCoordinatorJobPosting_DIV {
+    grid-row: 4;
+    background-color: #ff5241;
+    text-decoration: none;
+    color: white;
+}
+.CostumeCoordinatorAssistantJobPosting_DIV {
+    grid-row: 5;
+    background-color: #ff5241;
+    text-decoration: none;
+    color: white;
+}
+.volunteeringSection {
+    grid-column: 1/3;
+    grid-row: 4;
+    margin: 20px;
+    width: 150%;
+    display: grid;
+    grid-template-columns: 65% 30%;
+}
+.volunteeringText p a {
+    color: black;
+}
+.volunteeringHoursSubmition {
+    color: darkred
 }
